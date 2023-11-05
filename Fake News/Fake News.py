@@ -1,4 +1,3 @@
-
 # important notice...
 # This project contain some library that need you install befor...(just on linux, windows not supported)
 from matplotlib.pyplot import *
