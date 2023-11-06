@@ -47,7 +47,6 @@ from gensim.models.doc2vec import LabeledSentence
 from gensim import utils
 from nltk.corpus import stopwords
 
-
 # First step Preprocessing
 
 def textClean(text):
@@ -70,7 +69,6 @@ def constructLabeledSentences(data):
     for index, row in data.iteritems():
         sentences.append(LabeledSentence(utils.to_unicode(row).split(), ['Text' + '_%s' % str(index)]))
     return sentences
-
 
 def getEmbeddings(path,vector_dimension=300):
     data = pd.read_csv(path)
