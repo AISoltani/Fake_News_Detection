@@ -58,3 +58,21 @@ python main.py
 You will be prompted to select one of the classification models. Enter the corresponding number (e.g., 1 for K-Nearest Neighbors).
 
 The main function PRProject_Main(n) is responsible for calling the appropriate classifier based on the user's selection.
+
+Handwritten Digit Recognition Project-Pattern Recognition
+
+To Choose your Method  Run, First You Need To Install Required Libraries
+
+1. Knn Classifier
+2. Bayesian Classifier
+3. Random Forest Classifier
+4. Multilayer Perceptron Classifier
+5. Ada Boost Classifier
+6. Decision Tree Classifier
+7. Gaussian Process Classifier
+8. Support Vector Machine
+9. Stochastic Gradient Descent
+10. Neural Network (TensorFlow)
+
+Choosing The Number Of Method : 
+
