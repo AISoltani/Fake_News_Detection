@@ -124,3 +124,13 @@ F1-Score: The harmonic mean of precision and recall.
 Confusion Matrix: A matrix showing the true vs predicted classifications, which is visualized using a heatmap.
 Example:
 For K-Nearest Neighbors, after training and evaluation, the following might be output:
+```bash
+KNN Accuracy Is: 92.45 %
+Confusion matrix, without normalization
+[[ 250   35]
+ [  30  215]]
+```
+Conclusion
+This project provides a robust framework for experimenting with various classifiers to detect fake news. The use of Doc2Vec embeddings enables the model to handle textual data efficiently, while different classification algorithms give you the flexibility to experiment with various techniques for optimal performance.
+
+Feel free to modify the code and explore additional classification models or techniques!
